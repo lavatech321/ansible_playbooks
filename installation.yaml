@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  tasks:
+    - name: "Install apache"
+      apt:
+        name: "apache2"
+        state: "present"
+    - name:
+      apt:
+        name: "git"
+        state: "present"
+...
